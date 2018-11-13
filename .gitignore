@@ -1,0 +1,7 @@
+# Files for git to ignore
+# Byte-compiled / optimized / DLL files
+*.pyc
+.DS_Store
+__pycache__/
+# Keep big data tables out of the repo.
+*fordgobike-tripdata.csv
