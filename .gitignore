@@ -3,7 +3,9 @@
 *.pyc
 .DS_Store
 __pycache__/
+.ipynb_checkpoints/
 *.html
 *.png
+*~
 # Keep big data tables out of the repo.
 *fordgobike-tripdata.csv
