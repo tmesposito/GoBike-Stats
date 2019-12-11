@@ -4,7 +4,7 @@ This project analyzes ride data from the Bay Wheels (formerly Ford GoBike) bikes
 ### How to Use ###
 The main document is GoBike_ride_stats.ipynb, a Jupyter notebook that walks through various explorations and visualizations of system usage, including: ridership numbers, ride times, gender splits, and station use.
 
-That notebook depends on raw data that *are not included* here. Please download the public "...-fordgobike-tripdata.csv" files directly from the Bay Wheels website (https://www.lyft.com/bikes/bay-wheels/system-data) and place them in the same directory as GoBike_ride_stats.ipynb.
+That notebook depends on raw data that *are not included* here. Please download the public "...-tripdata.csv" files directly from the Bay Wheels website (https://www.lyft.com/bikes/bay-wheels/system-data) and place them in the same directory as GoBike_ride_stats.ipynb.
 
 
 **Creator:** Tom Esposito, espos13@gmail.com, http://w.astro.berkeley.edu/~tesposito/

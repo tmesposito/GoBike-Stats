@@ -8,7 +8,7 @@ import numpy as np
 import geocoder
 import sqlite3
 # I'm using table-handling functions from astropy, an astronomy-related module, because I'm
-# familiar with it, but there are other options out there (like pandas).
+# familiar with it, but there are other options out there (e.g., pandas).
 from astropy import table
 from astropy.io import ascii
 
@@ -55,7 +55,7 @@ class GoBike:
 		# This will take ~10 seconds.
 		tables = [ascii.read(fn, Reader=ascii.Basic,
 							  delimiter=',', header_start=0, data_start=1,
-							  fill_values=[('NULL', -1)]) for fn in filenames]
+							  fill_values=[('NULL', -1), ('', -1)]) for fn in filenames]
 		
 		self.tables = tables
 		
